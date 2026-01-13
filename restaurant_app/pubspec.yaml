@@ -1,0 +1,41 @@
+name: restaurant_app
+description: "Free-stack restaurant delivery scaffold"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Routing/state
+  flutter_riverpod: ^2.6.1
+  go_router: ^13.2.5
+
+  # Firebase (Auth + FCM only)
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  firebase_messaging: ^15.1.0
+
+  # Supabase (DB + Realtime)
+  supabase_flutter: ^2.6.0
+
+  # Maps (free)
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+
+  # Utils
+  intl: ^0.20.2
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

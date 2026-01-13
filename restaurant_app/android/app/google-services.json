@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "783938973684",
+    "project_id": "resdelivery-4b658",
+    "storage_bucket": "resdelivery-4b658.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783938973684:android:4fd50b218cb9711f4453a1",
+        "android_client_info": {
+          "package_name": "com.res.delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi1Bbr814RpZO8mHCuML3CI5zjFZ4Ti90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
